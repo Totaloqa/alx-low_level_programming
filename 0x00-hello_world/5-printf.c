@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints "with proper grammar, but the outcome is a piece of art"
- * Return: 0 if program executes successfully otherwise a non-zero value.
+ * main -  entry point
+ * Return: always 0 (success)
  */
 
 int main(void)
