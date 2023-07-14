@@ -5,9 +5,9 @@
  * Return: always 0 (success)
  */
 
-char main(void)
+int main(void)
 {
-	char = letter;
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
