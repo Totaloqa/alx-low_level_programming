@@ -2,21 +2,21 @@
 
 /**
  * main - entry point
- * return: 0 always (success)
+ * Return: 0 always (success)
  */
 
 int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++);
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
 	}
 
-	putchar(\n);
+	putchar('\n');
 
-	for (letter = 'A'; letter <= 'Z'; letter++);
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
 		putchar(letters);
 	}
