@@ -5,7 +5,7 @@
  * Return: always 0 (success)
  */
 
-main()
+int main(void)
 {
 	int digit;
 
