@@ -1,10 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
- * Return: 0 if program executes successfully otherwise a non-zero value
+ * main - entry point
+ * Return: 1 if program runs successfully
  */
 
 int main(void)
 {
+	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 
+	putchar('\n');
+
+	return (1);
+}
