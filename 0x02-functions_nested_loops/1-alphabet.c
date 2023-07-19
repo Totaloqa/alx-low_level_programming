@@ -3,11 +3,10 @@
 
 /**
  * main - entry point
- *
- *
+ * print_alphabet - Prints alphabet in lowercase
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char letter:
 
