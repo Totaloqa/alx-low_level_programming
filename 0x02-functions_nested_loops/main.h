@@ -1,4 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int putchar(int ch[] = "_putchar");
+int _putchar(int ch[]);
+{
+	int ch[] = "_putchar";
+
+	return (ch[]);
+}
+
+#endif
