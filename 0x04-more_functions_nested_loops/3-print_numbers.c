@@ -8,13 +8,13 @@
  *
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
-	int number;
+	int n;
 
-	for (number = 0; number < 10; number++);	
+	for (n = 0; n < 10; n++)
 	{
-		putchar(number);
+		putchar(n);
 	}
 	putchar('\n');
 }
