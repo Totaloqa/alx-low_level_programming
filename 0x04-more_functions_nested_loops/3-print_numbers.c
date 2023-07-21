@@ -2,10 +2,7 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
  * print_numbers - Prints numbers from 0 to 9 in ascending order
- *
  */
 
 void print_numbers(void)
