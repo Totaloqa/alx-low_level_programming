@@ -9,23 +9,21 @@
  */
 char *_strcat(char *dest, char *src)
 {
-    char *ptr = dest;
+	char *ptr = dest;
 
-    /* Move ptr to the end of dest */
-    while (*ptr)
-    {
-        ptr++;
-    }
+	while (*ptr)
+	{
+		ptr++;
+	}
+	while (*src)
+	{
+		*ptr = *src;
+		ptr++;
+		src++;
+	}
 
-    /* Copy characters from src to dest */
-    while (*src)
-    {
-        *ptr = *src;
-        ptr++;
-        src++;
-    }
+	*ptr = '\0';
 
-    *ptr = '\0'; /* Append null terminator to dest after the concatenation */
-    return dest;
+	return (dest);
 }
 
