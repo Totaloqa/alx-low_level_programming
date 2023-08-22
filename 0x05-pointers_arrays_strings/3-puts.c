@@ -1,14 +1,16 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * _puts - prints a string
+ *
+ * @str: prints a string
+ *
  */
 
 void _puts(char *str)
 {
-	char *str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	char  = "I do not fear computers. I fear the lack of them - Isaac Asimov";
 
-	_putchar(*str);
-
-	_putchar('\n')
+	puts(str);
 }
